@@ -11,3 +11,64 @@ body {
     margin-right: 10px;
 }
 
+.overdue {
+    color: #FF0000;
+}
+
+.done {
+    color: #999;
+}
+
+#rating {
+	display: inline-block;
+	padding-right: 3em;
+}
+
+.jumbotron {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+#comment {
+	font-size: 14px;
+}
+
+#ratingVotes {
+	display: inline-block;
+}
+
+#priority {
+	padding-left: 4em;
+}
+
+#check {
+	display: inline-block;
+	font-size: 12px;
+}
+
+#title {
+	padding-top: 1em;
+}
+
+#comment {
+	padding-top: 2em;
+	font-size: 2.5em;
+}
+
+#commentBody {
+	font-size: 12px;
+}
+
+#name {
+	font-style: italic;
+	font-size: 10px;
+}
+
+.required-field:after {
+    content: ' *';
+    color: #FF0000;
+}
+
+.invalid-field {
+    border: 1px solid #FF0000;
+}
